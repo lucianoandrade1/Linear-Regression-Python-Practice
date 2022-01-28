@@ -1,2 +1,4 @@
 # Linear-Regression-Python-Practice
 This practice uses a dataset with company costs (research and development, management and marketing) and profits.
+
+The practice starts with a verification of the correlation among the independent variables and dependent variable. Next the data is splited in training and testing sets and properly scaled. In the sequence a linear regression model is trained with all independent variables. This way it is possible to verify which indepentend variables are statisticaly significants (p-value < 0.05) to the model. Some residual analysis are performed and then a second model with only the statisticaly significant independent variables is created and trained. Some performance metrics are calculated and a comparative graph with the real and estimated profits values is generated.
